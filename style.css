@@ -1,0 +1,52 @@
+*::after *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+  
+  
+  header {
+    padding: 0%; }
+  
+    
+    body {
+    background-color: black;
+    display: grid;
+     grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+
+}
+
+h2 {
+    font-size: 2em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: beige;
+}
+
+article {
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10vh;
+    margin-right: auto;
+    margin-top: 10%;
+
+}
+
+picture {
+    width: 100%;
+    height: auto;
+}
+
+img {
+    width: 50vh;
+    height: auto;
+}
+
+
+article div {
+    align-items: center;
+    text-align: center;
+}
